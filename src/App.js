@@ -45,10 +45,10 @@ export default function App() {
     <div className="header">
       <h2>React Benchmark</h2>
       <div className="btns">
-        <button type="button" id="run" onClick={() => create(1000)}>Erstelle 1000 Zeilen</button>
-        <button type="button" id="run" onClick={() => create(10000)}>Erstelle 10.000 Zeilen</button>
-        <button type="button" id="run" onClick={() => add()}>Füge 1000 Zeilen hinzu</button>
-        <button type="button" id="run" onClick={() => clear()}>Lösche alle Zeilen</button>
+        <button type="button" id="create" onClick={() => create(1000)}>Erstelle 1000 Zeilen</button>
+        <button type="button" id="create1" onClick={() => create(10000)}>Erstelle 10.000 Zeilen</button>
+        <button type="button" id="add" onClick={() => add()}>Füge 1000 Zeilen hinzu</button>
+        <button type="button" id="clear" onClick={() => clear()}>Lösche alle Zeilen</button>
       </div>
       <Table dataSource={dataSource} />
     </div>
