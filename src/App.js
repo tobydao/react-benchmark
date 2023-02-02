@@ -44,12 +44,14 @@ export default function App() {
   return (
     <div className="header">
       <h2>React Benchmark</h2>
+      <hr></hr>
       <div className="btns">
         <button type="button" id="create" onClick={() => create(1000)}>Erstelle 1000 Zeilen</button>
         <button type="button" id="create1" onClick={() => create(10000)}>Erstelle 10.000 Zeilen</button>
         <button type="button" id="add" onClick={() => add()}>Füge 1000 Zeilen hinzu</button>
         <button type="button" id="clear" onClick={() => clear()}>Lösche alle Zeilen</button>
       </div>
+      <hr></hr>
       <Table dataSource={dataSource} />
     </div>
   )

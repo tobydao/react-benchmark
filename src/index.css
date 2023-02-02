@@ -1,0 +1,13 @@
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btns button {
+    padding: 10px
+}
+
+.header h2 {
+    text-align: center;
+}
